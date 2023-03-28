@@ -49,6 +49,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
  }
  #hero-image {
     height: 600px;
@@ -69,7 +71,7 @@ h1, h2 {
             transform: scale(1.1);
     }
  }
- #cover-text h2 {
+ #cover-text, #cover-text h2 {
         font-color: white;
 
  }
